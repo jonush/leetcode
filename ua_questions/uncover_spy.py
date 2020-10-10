@@ -1,5 +1,6 @@
 def uncover_spy(n, trust):
     """
+    TRY TO OPTIMIZE SOLUTION -> REFACTOR CODE
     :type n: integer
     :type trust: list
     :rtype: integer
