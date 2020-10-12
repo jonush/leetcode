@@ -15,8 +15,8 @@ def uncover_spy(n, trust):
     # if someone is trusted, add them to the values list of who is trusting them
     for i in trust:
         if i[0] not in d:
-            d[i[0]] = []
-        d[i[0]].append(i[1])    # O(1)
+            d[i[0]] = set()
+        d[i[0]].add(i[1])    # O(1)
     
     print(d)
 
