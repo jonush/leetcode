@@ -1,2 +1,3 @@
-# code_chall
-Assortment of LeetCode problems
+# Collection of LeetCode problems with notes
+
+Contains easy, medium, and hard questions along with solutions and additional notes.

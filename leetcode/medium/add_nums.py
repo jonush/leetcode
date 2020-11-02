@@ -5,6 +5,8 @@ class ListNode:
 
 def addTwoNumbers(l1, l2):
     """
+    MEDIUM
+    
     Given two linked lists of numbers in reverse order,
     find the sum of the two integers and return it as a linked list
     """
