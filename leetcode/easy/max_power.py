@@ -27,3 +27,15 @@ def maxPower(s: str) -> int:
 
 test = "aaasdddgggeethhhhhaac"
 maxPower(test)
+
+"""
+TIME & SPACE COMPLEXITY
+
+TIME: O(n)
+
+The solution utilizes a for loop to iterate through the given string "s" at least once, checking some items more than once. 
+
+SPACE: O(1)
+
+The solution doesn't require too much additional space since no significant data structures are used. there are only two variables used as counters to store integers. Otherwise, the solution iterates through the given string provided in the parameter.
+"""

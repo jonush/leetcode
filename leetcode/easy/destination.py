@@ -28,8 +28,20 @@ def destCity(paths) -> str:
     # find the item that doesn't point anywhere
     for i in d.values():
         ans = i.pop()
-        if ans not in d.keys():
+        if ans not in d:
             return ans
 
 test = [["London","New York"],["New York","Lima"],["Lima","Sao Paulo"]]
 destCity(test)
+
+"""
+TIME & SPACE COMPLEXITY
+
+TIME: O(n)
+
+The solution uses two for loops: one to create the dictionary and the other to locate the location that has no destination. 
+
+SPACE: O(n)
+
+The solution utilizes dictionaries and sets to store the locations provided, so the space will depend on the size of the input.
+"""
