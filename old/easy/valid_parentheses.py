@@ -43,3 +43,11 @@ def isValid(s: str) -> bool:
 
 test = "(){}[]"
 isValid(test)
+
+"""
+TIME & SPACE COMPLEXITY
+
+TIME: 
+
+SPACE: 
+"""
