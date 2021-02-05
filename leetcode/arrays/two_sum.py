@@ -22,7 +22,7 @@ def twoSum(nums, target: int):
             return [d[m], i]
         else:
             d[n] = i
-
+  
 test = [1,5,2,9]
 test_target = 7
 twoSum(test, test_target)
@@ -38,3 +38,11 @@ SPACE: O(n)
 
 The solution utilizes a dictionary to store the numbers and their indices. In the worst case, where the second number of the sum is the last item in nums, the dictionary will have been created with a size of N - 1. If the second number is found before the end, the dictionary will end as the result is returned.
 """
+
+def factorial(n):
+    if n == 1:
+        return 1
+    
+    return n * factorial(n-1)
+
+print(factorial(6))
